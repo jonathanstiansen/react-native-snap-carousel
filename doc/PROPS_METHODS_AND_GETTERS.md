@@ -84,7 +84,6 @@ Prop | Description | Type | Default
 ------ | ------ | ------ | ------
 `onLayout(event)` | Exposed `View` callback; invoked on mount and layout changes | Function | `undefined`
 `onScroll(event)` | Exposed `ScrollView` callback; fired while scrolling | Function | `undefined`
-`onBeforeSnapToItem(slideIndex)` | Callback fired when the new active item has been determined, before snapping to it | Function | `undefined`
 `onSnapToItem(slideIndex)` | Callback fired after snapping to an item | Function | `undefined`
 
 ### Inherited props
